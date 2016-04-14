@@ -11,7 +11,7 @@ Unless you want that to be the case, of course :-)
 To add it globally, place this in `~/.sbt/0.13/plugins/jeopardy.sbt`
 
 ```
-resolvers += Resolver.bintrayRepo("knutwalker", "sbt-plugins")
+resolvers += Resolver.bintrayIvyRepo("knutwalker", "sbt-plugins")
 addSbtPlugin("de.knutwalker" % "sbt-jeopardy"  % "0.1.0" )
 ```
 
@@ -34,3 +34,11 @@ Plays the Jeopardy Theme once and then stops.
 
 Stops the Jeopardy Theme if it is currently playing.
 If, for some reason (aka bugs), the theme does not stop after compile has completed, you can use this task to stop the Theme manually.
+
+
+## License
+
+This code is open source software licensed under the Apache 2.0 License.
+
+The Theme is downloaded from http://www.orangefreesounds.com/jeopardy-theme-song/
+under a “Personal Use Only” license.
