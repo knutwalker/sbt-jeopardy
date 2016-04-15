@@ -11,7 +11,6 @@ Unless you want that to be the case, of course :-)
 To add it globally, place this in `~/.sbt/0.13/plugins/jeopardy.sbt`
 
 ```
-resolvers += Resolver.bintrayRepo("knutwalker", "sbt-plugins")
 addSbtPlugin("de.knutwalker" % "sbt-jeopardy"  % "0.1.0" )
 ```
 
